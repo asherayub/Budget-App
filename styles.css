@@ -48,10 +48,9 @@ body {
 
 .left .list ul {
   list-style: none;
-  margin: 1em 1em 1em 0;
-  padding: 1em;
+  margin: 1em;
   font-size: 1.5rem;
-
+width: 90%;
   height: 250px;
   overflow-y: scroll;
 }
