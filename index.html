@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Budget App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <div class="header">
+          <h1><i class="fa-solid fa-user"></i> Dashboard</h1>
+        </div>
+        <div class="available__balance">
+          <p>Available Balance:</p>
+          <h1 id="balance">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <span id="current__balance">0</span>
+          </h1>
+        </div>
+        <div class="list">
+          <h2><i class="fa-solid fa-bag-shopping"></i> Purchased Products</h2>
+          <ul id="current__purchases"></ul>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Add New Items</h1>
+        <div class="product__details">
+          <input
+            type="text"
+            class="product__name"
+            placeholder="Product Name"
+            required />
+          <input
+            type="number"
+            class="product__price"
+            placeholder="Product Price"
+            required />
+          <button id="product__add__btn">
+            Add Product <i class="fa-solid fa-cart-plus fa-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
