@@ -74,7 +74,8 @@ ul::-webkit-scrollbar-thumb {
   padding: 0.5em 1em;
   margin: 1em 0;
   border-radius: 1.2rem;
-  background-color: #add8e650;
+  /* background-color: #add8e650; */
+  border-bottom: 2px solid #add8e650;
   box-shadow: 1px 2px 20px 4px #add8e615;
   display: flex;
   justify-content: space-between;
